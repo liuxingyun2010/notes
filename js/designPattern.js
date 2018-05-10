@@ -58,7 +58,7 @@ alert(person1.constructor === Object) // false
 
 /* 如果直接调用构造函数，不使用new的方式，则会当做普通对象 */
 Person('张三', 34, '销售') // Person内部的this指向了window，记住一点：谁调用，this就指向谁
-console.log(window.name) // 
+console.log(window.name) // 张三
 
 /* 通过call, aplly, bind可以改变this指向 */
 let o = new Object()
