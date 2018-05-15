@@ -30,7 +30,6 @@ alert(Object.prototype.toString.call(person1) === '[object Object]') // true
 * @缺点：每个实例都会创建一个方法，无法公用
 */
 
-
 function Person(name, age, job){
   this.name = name
   this.age = age
@@ -65,5 +64,64 @@ let o = new Object()
 /* console.log(o.sayName()) //报错 */
 Person.call(o, 'Allen', 38, '打酱油')
 o.sayName()
+
+
+
+/*
+* @名称：原型模式
+* @优点：特定类型的所有实例共享属性和方法
+* @缺点：引用类型的共享
+*/
+function Person() {
+
+}
+
+Person.prototype.name = 'xiaomi'
+Person.prototype.age = 20
+Person.prototype.job = 'it'
+Person.prototype.sayName = function() {
+  alert(this.name)
+}
+
+var person1 = new Person()
+person1.sayName() // xiaomi
+
+var person2 = new Person()
+person2.sayName() // xiaomi
+
+// 指向同一个sayName
+alert(person1.sayName === person2.sayName) // true
+
+// 每个实例都有一个__proto__属性，用于指向prototype原型
+alert(person1.__proto__ === Person.prototype) // true
+
+// 每个实例都有一个constructor属性，指向构造函数
+alert(person1.constructor === Person) // true
+alert(person2.constructor === Person) // true
+
+// 通过isPrototypeOf检测原型与实例之间是否存在联系
+alert(Person.prototype.isPrototypeOf(person1)) // true
+alert(Person.prototype.isPrototypeOf(person2)) // true
+
+//通过Object.getPrototypeOf()方法获取对象的原型
+console.log(Object.getPrototypeOf(person1)) // Person.prototype
+console.log(Object.getPrototypeOf(person2)) // Person.prototype
+console.log(Object.getPrototypeOf(person1).name) //xiaomi
+// 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
