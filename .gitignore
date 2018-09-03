@@ -1,0 +1,9 @@
+.sass-cache
+*.bak
+*.log
+node_modules
+.DS_Store
+selfCarService/
+psd/
+test/
+.idea
