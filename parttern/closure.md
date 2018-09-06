@@ -39,3 +39,87 @@ console.log(Type.isNumber('12')) // false
 
 ### 作用
 * 封装私有变量
+* 延续局部变量的寿命
+
+### 用闭包实现命令模式
+例子
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+</head>
+<body>
+  <button id="open">打开</button>
+  <button id="close">关闭</button>
+  <script>
+  // 正常写法
+  const T = function(receiver) {
+    this.receiver = receiver
+  }
+  
+  const Tools = {
+    open: function() {
+      console.log('open')
+    },
+    close: function() {
+      console.log('close')
+    }
+  }
+  
+  T.prototype.open = function() {
+    this.receiver.open()
+  }
+  T.prototype.close = function() {
+    this.receiver.close()
+  }
+  
+  const setCommand = function(r) {
+    document.getElementById('open').onclick = function(){
+      r.open()
+    }
+    document.getElementById('close').onclick = function(){
+      r.close()
+    }
+  }
+  
+  setCommand(new T(Tools))
+  
+  // 闭包写法
+  const T = function(receiver) {
+    const open = receiver.open
+    const close = receiver.close
+    
+    return {
+      open: open,
+      close: close
+    }
+  }
+  
+  const Tools = {
+    open: function() {
+      console.log('open')
+    },
+    close: function() {
+      console.log('close')
+    }
+  }
+  
+  
+  const setCommand = function(r) {
+    document.getElementById('open').onclick = function(){
+      r.open()
+    }
+    document.getElementById('close').onclick = function(){
+      r.close()
+    }
+  }
+  
+  setCommand(T(Tools))
+
+  </script>
+</body>
+</html>
+```
