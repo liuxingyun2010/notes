@@ -1,4 +1,5 @@
 # 学习目录
 
 * javascript
-	* [设计模式](js/designPattern.js)
+	* [typescript](typesctipt/列表.md)
+	
