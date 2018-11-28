@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1c39ffc-aaff-48a0-9426-2320cce6b568" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/designPattern.js" beforeDir="false" afterPath="$PROJECT_DIR$/设计模式/常见类型.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parttern/closure.md" beforeDir="false" afterPath="$PROJECT_DIR$/patterns/closure.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parttern/polymorphism.md" beforeDir="false" afterPath="$PROJECT_DIR$/patterns/polymorphism.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parttern/this_call_apply.md" beforeDir="false" afterPath="$PROJECT_DIR$/patterns/this_call_apply.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parttern/原型模式.md" beforeDir="false" afterPath="$PROJECT_DIR$/patterns/原型模式.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/typescript/列表.md" beforeDir="false" afterPath="$PROJECT_DIR$/typescript/类型.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/设计模式/原型模式.md" beforeDir="false" afterPath="$PROJECT_DIR$/设计模式/原型模式.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -33,13 +27,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="md" value="4938" />
+          <entry key="md" value="5723" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="131" />
-          <entry key="Markdown" value="4807" />
+          <entry key="JavaScript" value="138" />
+          <entry key="Markdown" value="5585" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -81,8 +75,8 @@
         <entry file="file://$PROJECT_DIR$/设计模式/原型模式.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="673">
-                <caret line="86" column="20" selection-start-line="86" selection-start-column="20" selection-end-line="86" selection-end-column="20" />
+              <first_editor relative-caret-position="700">
+                <caret line="187" column="51" selection-start-line="187" selection-start-column="51" selection-end-line="187" selection-end-column="51" />
               </first_editor>
               <second_editor />
             </state>
@@ -298,12 +292,12 @@
       <workItem from="1542704717145" duration="137000" />
       <workItem from="1542704904874" duration="18553000" />
       <workItem from="1542965218715" duration="9248000" />
-      <workItem from="1543337207237" duration="11218000" />
+      <workItem from="1543337207237" duration="13033000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52467000" />
+    <option name="totallyTimeSpent" value="54282000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -487,8 +481,8 @@
     <entry file="file://$PROJECT_DIR$/设计模式/原型模式.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="673">
-            <caret line="86" column="20" selection-start-line="86" selection-start-column="20" selection-end-line="86" selection-end-column="20" />
+          <first_editor relative-caret-position="700">
+            <caret line="187" column="51" selection-start-line="187" selection-start-column="51" selection-end-line="187" selection-end-column="51" />
           </first_editor>
           <second_editor />
         </state>
