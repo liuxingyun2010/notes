@@ -27,13 +27,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="md" value="5723" />
+          <entry key="md" value="5729" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JavaScript" value="138" />
-          <entry key="Markdown" value="5585" />
+          <entry key="Markdown" value="5591" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -75,8 +75,8 @@
         <entry file="file://$PROJECT_DIR$/设计模式/原型模式.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="700">
-                <caret line="187" column="51" selection-start-line="187" selection-start-column="51" selection-end-line="187" selection-end-column="51" />
+              <first_editor relative-caret-position="48">
+                <caret line="87" lean-forward="true" selection-start-line="87" selection-end-line="87" />
               </first_editor>
               <second_editor />
             </state>
@@ -292,18 +292,18 @@
       <workItem from="1542704717145" duration="137000" />
       <workItem from="1542704904874" duration="18553000" />
       <workItem from="1542965218715" duration="9248000" />
-      <workItem from="1543337207237" duration="13033000" />
+      <workItem from="1543337207237" duration="13122000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54282000" />
+    <option name="totallyTimeSpent" value="54371000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49894515" visible="true" weight="0.121157326" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49894515" visible="true" weight="0.121157326" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5010548" side_tool="true" weight="0.24954791" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -314,7 +314,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3094984" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3094984" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -481,8 +481,8 @@
     <entry file="file://$PROJECT_DIR$/设计模式/原型模式.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="700">
-            <caret line="187" column="51" selection-start-line="187" selection-start-column="51" selection-end-line="187" selection-end-column="51" />
+          <first_editor relative-caret-position="48">
+            <caret line="87" lean-forward="true" selection-start-line="87" selection-end-line="87" />
           </first_editor>
           <second_editor />
         </state>
